@@ -1,15 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
-import GamePage from './pages/GamePage';  // Import the GamePage component
-
+import GamePage from './pages/GamePage';  
 class App extends React.Component {
     render() {
         return (
             <Router>
                 <Routes>
                     <Route path="/" element={<HomePage />} />
-                    <Route path="/game/:gameId" element={<GamePage />} />  // Add a new route for the game page
+                    <Route path="/game/:gameId" element={<GamePage />} />  
                 </Routes>
             </Router>
         );
