@@ -1,0 +1,20 @@
+
+
+.game-page {
+    display: flex;
+    height: 100vh;
+}
+
+.chess-section {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-section {
+    width: 25%;
+    border-left: 1px solid #dddddd;
+    height: 100%;
+}

@@ -1,0 +1,42 @@
+.chessboard-container {
+    position: relative;
+    width: fit-content;
+    /* height: 80vh; */
+}
+
+/* .chessboard-container {
+    position: relative;
+    width: auto;
+} */
+
+
+/* .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    background-color: #4A4A4A;
+    color: white;
+    width: 100%;
+} */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: #4A4A4A;
+    color: white;
+    width: 95%;
+}
+
+
+.title {
+    margin: 0;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
